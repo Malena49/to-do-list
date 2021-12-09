@@ -21,6 +21,7 @@ function Header({ addlist, setaddlist, setnewlists, newlists,  }) {
 
         <form className="form">
             <input type="text" className="form-item" placeholder="Ajouter une tâche" value={addlist} onChange={handleBar} onKeyDown={confirmer} />
+     <p>Valider avec la touche Entrée </p>
         </form>
 
     )
